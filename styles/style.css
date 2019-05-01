@@ -43,9 +43,7 @@
 .center-map {
     left: 250px;
 }
-.show {
-    opacity: 1;
-}
+
 
 
 .close-overlay {
@@ -59,7 +57,9 @@
     cursor: pointer;
     color: rgba(255, 255, 255, 0.9);
 }
-
+.show {
+    opacity: 1;
+}
 .date {
     font-weight: lighter;
     font-size: 1.5rem;
