@@ -1,0 +1,46 @@
+.main-header {
+    font-size: 12rem;
+    font-family: 'Squada One', Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(40, 41, 43);
+}
+
+.info {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.map {
+    width: 100%;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.overlay {
+    position: absolute;
+    padding: 15px;
+    top: 100px;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    height: 50%;
+    width: 50%;
+    opacity: 0;
+    transition: .25s ease;
+    background-color: rgba(255, 30, 30, 0.8);
+    color: white;
+    border-radius: 3px;
+}
+
+.show {
+    opacity: 1;
+}
+
+.close-overlay {
+    color: white;
+    text-align: right;
+}
+
+.close-overlay:hover {
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.9);
+}
