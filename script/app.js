@@ -26,7 +26,7 @@ $(document).ready(function () {
         // $("#two").removeClass("show")
         // $("#three").removeClass("show")
         // $("#four").removeClass("show")
-        $(this).parent('div').removeClass("show");
+        $(this).parent().removeClass("show");
     })
 
 }) 
